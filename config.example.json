@@ -1,0 +1,18 @@
+{
+  "name": "my-repo",
+  "repoPath": "~/code/my-repo",
+  "remote": "origin",
+  "baseBranch": "main",
+  "engine": "python",
+  "enabled": true,
+  "intervalMinutes": 60,
+  "activeHours": { "enabled": false, "start": "08:00", "end": "18:00", "weekdaysOnly": true },
+  "notifyMode": "new",
+  "sound": true,
+  "openWith": "TextEdit",
+  "includeUntracked": true,
+  "ignorePatterns": ["*.lock", "*.lock.json"],
+  "retainDays": 60,
+  "dataDir": "./data",
+  "notifierApp": ""
+}
